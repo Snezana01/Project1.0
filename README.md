@@ -1,6 +1,6 @@
 # project1.0
 
-[# Project0.1] (https://github.com/Snezana01/Project0.1)
+[Project0.1](https://github.com/Snezana01/Project0.1)
 1. Programa skaičiuoja iš studento gautų pažymių jo rezultatą arba medianą
 2. Duomenis galima įvesti ranka, galima atsitiktinai sugeneruoti
 3. Pažymiai saugomi masyve versijoje 0.1, vektoriuje versijoje 0.1.2
