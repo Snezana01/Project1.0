@@ -1,7 +1,8 @@
 # Project1.0
 
 Rezultatai pateikti atskirame aplanke, matome, kad nedaug, bet visgi skiriasi laikai naudojant 2 papildomus vektorius, bei metodas be vektorių, kuris yra optimaliausias. Naudojant 1 papildomą vektorių, programa neduoda atsakymo esant 1000000 duomenų, tai gali būti dėl to, kad metodas erase veikia daug ilgiau su didesniu duomenų skaičiumi.
-Po 1000000 duomenų taip pat nera rezultatų su list struktūra, dėl to, kad nuskaitymo iš failo metodas nėra produktyvus list'ams (nors vector struktūrai sparčiai veikia). Tačiau remiantis mažiausiu duomenų kiekiu, laikai panašūs, pradžioe net realizacijos su list'ais veikia sparčiau.
+Po 1000000 duomenų taip pat nera rezultatų su list struktūra, dėl to, kad nuskaitymo iš failo metodas nėra produktyvus list'ams (nors vector struktūrai sparčiai veikia). Tačiau remiantis mažiausiu duomenų kiekiu, laikai panašūs, pradžioe net realizacijos su list'ais veikia sparčiau, bet paskui lėtėja.
+Taigi, su didesniais duomenimis vector struktūra yra optimaliausia ( + nebūtina naudoti rodyklių, kaip list atvėju).
 
 ## Naudojimosi instrukcija.
  Paleidžiant programą, ji generuoja pasirinktą studentų skaičių, todėl vartotojui tereikia tik įvesti norimą studentų skaičių ir programa, sugeneravus jį, apskaičiuos rūšiavimo į dvi kategorijas laiką.
