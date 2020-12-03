@@ -97,12 +97,12 @@ std::ifstream read;
 
     double pabaiga5 = t.elapsed();
     std::cout << "Kietiaku atskirimas nuo vargsiuku naudojant 2 naujus vektorius uztruko: " << pabaiga5<< " s\n";
-    /*t.reset();
+    t.reset();
 
     vektorius4(Eil_vect, kiek);
 
     double pabaiga6 = t.elapsed();
-    std::cout << "Vargsiuku atskirimas nuo visu studentu ir pasalinimas is pirmo vektoriaus uztruko: " << pabaiga6 << " s\n";*/
+    std::cout << "Vargsiuku atskirimas nuo visu studentu ir pasalinimas is pirmo vektoriaus uztruko: " << pabaiga6 << " s\n";
     Eil_vect.clear();
     read.close();
     return 0;
