@@ -1,5 +1,15 @@
 # Project1.0
 
+Rezultatai pateikti atskirame aplanke, matome, kad nedaug, bet visgi skiriasi laikai naudojant 2 papildomus vektorius, bei metodas be vektorių, kuris yra optimaliausias. Naudojant 1 papildomą vektorių, programa neduoda atsakymo esant 1000000 duomenų, tai gali būti dėl to, kad metodas erase veikia daug ilgiau su didesniu duomenų skaičiumi.
+Po 1000000 duomenų taip pat nera rezultatų su list struktūra, dėl to, kad nuskaitymo iš failo metodas nėra produktyvus list'ams (nors vector struktūrai sparčiai veikia). Tačiau remiantis mažiausiu duomenų kiekiu, laikai panašūs, pradžioe net realizacijos su list'ais veikia sparčiau.
+
+## Naudojimosi instrukcija.
+ Paleidžiant programą, ji generuoja pasirinktą studentų skaičių, todėl vartotojui tereikia tik įvesti norimą studentų skaičių ir programa, sugeneravus jį, apskaičiuos rūšiavimo į dvi kategorijas laiką.
+ Norint panaudoti savo failą, vietoje "name" vektorių ar list'ų faile reikia įrašyti failo pavadinimą "pavadinimas.txt" formatu. (Jis turi būti projekto aplankale).
+ 
+ ## Kas dar buvo pakeista.
+ Sukurti keli metodai, vietos taupymui (irasymas i faila)
+ Vektorių bei list'ų faile pridėti 2 nauji studentų rūšiavimo į dvi dalis būdai. 
 
 
 Ankstesti pertvarkymai:
