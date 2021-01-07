@@ -3,6 +3,11 @@
 Rezultatai pateikti atskirame aplanke [duomenys](https://github.com/Snezana01/Project1.0/tree/v1.0/Duomenys), matome, kad nedaug, bet visgi skiriasi laikai naudojant 2 papildomus vektorius, bei metodas be vektorių, kuris yra optimaliausias. Naudojant 1 papildomą vektorių, programa neduoda atsakymo esant 1000000 duomenų, tai gali būti dėl to, kad metodas erase veikia daug ilgiau su didesniu duomenų skaičiumi.
 Po 1000000 duomenų taip pat nera rezultatų su list struktūra, dėl to, kad nuskaitymo iš failo metodas nėra produktyvus list'ams (nors vector struktūrai sparčiai veikia). Tačiau remiantis mažiausiu duomenų kiekiu, laikai panašūs, pradžioe net realizacijos su list'ais veikia sparčiau, bet paskui lėtėja.
 Taigi, su didesniais duomenimis vector struktūra yra optimaliausia ( + nebūtina naudoti rodyklių, kaip list atvėju).
+![1000 studentų generavimas](https://github.com/Snezana01/Project1.0/blob/v1.0/Duomenys/1000.PNG)
+![10000 studentų generavimas](https://github.com/Snezana01/Project1.0/blob/v1.0/Duomenys/10000.PNG)
+![100000 studentų generavimas](https://github.com/Snezana01/Project1.0/blob/v1.0/Duomenys/100000.PNG)
+![1000000 studentų generavimas](https://github.com/Snezana01/Project1.0/blob/v1.0/Duomenys/1000000.PNG)
+
 
 ## Naudojimosi instrukcija.
  Paleidžiant programą, ji generuoja pasirinktą studentų skaičių, todėl vartotojui tereikia tik įvesti norimą studentų skaičių ir programa, sugeneravus jį, apskaičiuos rūšiavimo į dvi kategorijas laiką.
